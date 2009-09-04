@@ -1,0 +1,13 @@
+This repository contains a set of utilities developed at wisdomtap.com
+
+Utilities included are:
+
+py2xml: Convert any Python scalar, list or dictionary to XML.
+        Class instances not supported
+
+store: A wrapper for MySQL that takes care of connection reuse,
+       transactions, and conversion of results into python tuples
+
+list_cmp: A python shell script to compare two lists and report direction
+        and amount of change for each item. Also computes a deviation score.
+
